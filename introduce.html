@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/tooltip.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="icon" href="img/JH.ico">
+</head>
+<body>
+    <div>
+        <header>
+        <nav id="nav">
+            <ul>
+                <li><a href="#box1"><span class="tooltip">Home</span></a></li>
+                <li><a href="#box2"><span class="tooltip">About Me</span></a></li>
+                <li><a href="#box3"><span class="tooltip">Major</span></a></li>
+                <li><a href="#box4"><span class="tooltip">SNS</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    </div>
+
+    <div id="boxes">
+        <div id="box1">
+            <h1>Home</h1>
+            <div class="scroll1">
+                <div class="profile">
+                    <img src="img/duck.jpg" width="300px" onclick="pop" class="pop">
+                    <p>대덕 소프트웨어 마이스터고<br>10기<br>서지호</p>
+                    <p>🩷<button class="heart">0</button></p>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="box2">
+            <h1>About Me</h1>
+            <h2>대덕 소프트웨어 마이스터고등학교<br> 1학년 2반 9번 서지호</h2>
+            <div id="intro">
+                <p>현재 대덕 소프트웨어 마이스터고등학교 10기생으로 재학중인 서지호라고 합니다.<br>
+                    대전 어은중학교를 졸업했으며, 입시미술(기초디자인)을 하다 왔습니다.<br>
+                    특기는 어떠한 일에 파고들고, 집중하는 것입니다.<br>
+                    저의 장점은 원만한 대인관계를 형성하는 것과 노력형 인재라는 것,<br>
+                    그리고 저의 단점은 산만하다는 것과 공감을 잘 못해준다는 점입니다.</p>
+                <h3>TMI</h3>
+                <p>혼자 있을 때와 남과 있을 때 모습의 차이가 큰 INTJ입니다.<br>
+                    분홍색이랑 예체능을 사랑하는 고양이파입니다.<br>
+                    그런데 프렌치 불독 2마리 키웁니다. 귀엽습니다.</p>
+            </div>
+        </div>
+        <div id="box3">
+            <h1>Major</h1>
+            <h2>Front-end</h2>
+            <div class="scroll2">
+                <label class="label">
+                    <select id="selector" class="scroll">
+                        <option>C언어</option>
+                        <option>10기 시간표</option>
+                        <option>POPCAT</option>
+                    </select>
+                </label>
+                <div id="value" class="scroll">
+                </div>
+            </div>
+
+
+
+        </div>
+        <div id="box4">
+            <h1>SNS</h1>
+            <div class="scroll3">
+                <ul class="sns">
+                    <li><a href="https://www.instagram.com/sjh.08_/" target="_blank"><img class="img" src="img/sjh.08__qr.png" width="300px"></a></li>
+                    <li><a href="https://github.com/Seo-JH-08" target="_blank"><img class="img" src="img/github.png" width="300px"></a><p>Github<br>Seo-JH-08</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script src="js/pop.js"></script>
+<script src="js/index.js"></script>
+<script src="js/scroll.js"></script>
+</body>
+</html>

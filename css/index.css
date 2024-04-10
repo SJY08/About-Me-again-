@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'KCC-Hanbit', cursive;
+    /*스크롤 이동 부드럽게*/
+    scroll-behavior: smooth;
+    margin: 0;
+    padding : 0;
+}
+
+h1{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+h2{
+    padding-bottom: 20px;
+}
+
+#boxes{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+#box1{
+    width: 100%;
+    height: 100vh;
+    background: rgb(211, 186, 190);
+    color: #6c1d1d;
+}
+
+.profile>img{
+    border-radius: 20px;
+}
+
+.profile{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 10px;
+    width: 320px;
+    height: 525px;
+    border: #ffffff solid 2px;
+    background: rgba(255, 255, 255, 0.27);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+}
+
+.pop:hover{
+    opacity: 70%;
+    transition: all 100ms linear;
+}
+
+.pop:active{
+    opacity: 20%;
+}
+
+button{
+    color: #a45b77;
+    border: 0;
+    background: rgba(255, 255, 255, 0);
+}
+
+#box2{
+    width: 100%;
+    height: 100vh;
+    /*margin: 0;*/
+    background: #a5c7d3;
+    color: #0e2d59;
+}
+
+#box2 > p {
+    text-align: center;
+}
+
+#box3{
+    width: 100%;
+    height: 100vh;
+    /*margin: 0;*/
+    background: #e1d6bb;
+    color: #624c16;
+}
+
+#box4{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: #a5d3b2;
+    color: #15540e;
+}
+
+.sns{
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 800px;
+    border: #ffffff solid 2px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.32);
+    box-shadow: 0 0 15px white;
+}
+
+.img:hover{
+    opacity: 70%;
+    transition: all 100ms linear;
+}
+.img:active{
+    opacity: 20%;
+}
+
+#selector{
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: #b08d67 solid 3px;
+    border-radius: 10px;
+    background: #fff8e9;
+}
+
+#value{
+    width: 1500px;
+    height: 450px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.28);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.54);
+
+    border: rgba(255, 255, 255, 0.49) solid 3px;
+    border-radius: 10px;
+}

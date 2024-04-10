@@ -1,0 +1,45 @@
+header {
+    /*맨 위로*/
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+header li a {
+    position: relative;
+    transition: top 0.3s ease;
+    text-decoration-line: none;
+}
+
+header .tooltip {
+    position: absolute;
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    line-height: 15px;
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff2d68;
+}
+
+header a:hover .tooltip {
+    display: block;
+    color: #ffd128;
+    transform: scale(1.1);
+    transition: all 100ms linear;
+}
+
+ul{
+    /*툴팁 세팅*/
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 100px;
+}

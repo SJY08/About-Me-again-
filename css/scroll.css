@@ -1,0 +1,22 @@
+/*about_slide 애니메이션 생성 : 처음은 불투명도 0, y축으로 50px 이동 => 불투명도 100%(=1), y축 0(기본 자리)*/
+@keyframes about_slide {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/*about_slide 애니메이션 생성 : 처음은 불투명도 100%(=1), y축  => 불투명도 100%(=1), y축 50px 이동(사라지는 위치)*/
+@keyframes about_backslide {
+    from{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
